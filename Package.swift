@@ -31,7 +31,7 @@ var package = Package(
         .package(url: "https://github.com/OpenKitten/BSON.git", from: "7.0.0"),
         
         // 🚀
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.10.1),
+        .package(url: "https://github.com/apple/swift-nio.git", from: "2.10.1"),
 
         // 📚
         .package(url: "https://github.com/anatoliykant/NioDNS", from: "2.1.0"),
@@ -79,7 +79,7 @@ var package = Package(
 //]
 //#else
 // 🔑
-package.dependencies.append(.package(url: "https://github.com/apple/swift-nio-ssl.git", from: "2.0.0"))
+package.dependencies.append(.package(url: "https://github.com/apple/swift-nio-ssl.git", from: "2.4.4"))
 let transport: Target.Dependency = "NIOSSL"
 //#endif
 
